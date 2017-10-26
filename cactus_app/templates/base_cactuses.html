@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% load staticfiles %}
+
+
+{% block cactuses %}
+
+    <div class="row">
+       {% for cactus in cactuses %}
+                <div class="col-md-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">{{ cactus.cactus_name }}</h2>
+                        </div>
+                        <div class="panel-body">
+                            {% block by_user %}
+                            {% endblock %}
+                            <a href="{% url 'cactus_app:detail' cactus.id %}">
+                                <div class="cactus-photo">
+                                    <img src="{{ cactus.image.url }}" height="200">
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            {% if forloop.counter|divisibleby:"3" %}
+            </div><div class="row">
+            {% endif %}
+            {% endfor %}
+    </div>
+
+{% endblock %}

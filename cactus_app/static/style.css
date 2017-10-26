@@ -1,0 +1,14 @@
+.table-right{
+    float:right;
+    padding:15px;
+    vertical-align: middle;
+}
+
+.table-right th{
+    #color: #43AC6A;
+}
+
+.cactus-photo{
+    vertical-align: middle;
+    padding:15px;
+}

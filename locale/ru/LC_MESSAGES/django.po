@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-18 23:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: cactus_app/apps.py:8
+msgid "Cactus App"
+msgstr "Приложение Кактус"
+
+#: cactus_app/forms.py:14
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: cactus_app/forms.py:15
+msgid "password"
+msgstr "Пароль"
+
+#: cactus_app/models.py:11
+msgid "cactus name"
+msgstr "Наименование кактуса"
+
+#: cactus_app/models.py:12
+msgid "location"
+msgstr "Место произрастания"
+
+#: cactus_app/models.py:13
+msgid "flowers"
+msgstr "Размер цветка"
+
+#: cactus_app/models.py:14
+msgid "quantity"
+msgstr "Количество"
+
+#: cactus_app/models.py:15
+msgid "image"
+msgstr "Изображение"
+
+#: cactus_app/models.py:21
+msgid "cactus"
+msgstr "Кактус"
+
+#: cactus_app/models.py:22
+msgid "cactuses"
+msgstr "Кактусы"
+
+#: cactus_app/templates/404.html:9
+msgid "Your Cactus does not exist!"
+msgstr "Ваш кактус еще не добавлен!"
+
+#: cactus_app/templates/base.html:33
+msgid "logout"
+msgstr "Выход"
+
+#: cactus_app/templates/base.html:37
+msgid "login"
+msgstr "Вход"
+
+#: cactus_app/templates/base.html:38
+msgid "register"
+msgstr "Регистрация"
+
+#: cactus_app/templates/detail.html:21
+msgid "Owner"
+msgstr "Владелец"
+
+#: cactus_app/templates/detail.html:28
+msgid "Location"
+msgstr "Место произрастания"
+
+#: cactus_app/templates/detail.html:35
+msgid "Flowers"
+msgstr "Размер цветка"
+
+#: cactus_app/templates/detail.html:42
+msgid "Quantity"
+msgstr "Количество"
+
+#: cactus_app/templates/detail.html:48
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: cactus_app/templates/index.html:8
+msgid "by"
+msgstr "От"
+
+#: cactus_app/templates/index.html:15
+msgid "Add Your Cactus"
+msgstr "Добавь Свой Кактус"
+
+#: cactus_app/templates/login.html:11
+msgid "Login"
+msgstr "Вход"
+
+#: cactus_app/templates/register.html:10
+msgid "Registration"
+msgstr "Регистрация"
+
+#: cactus_app/views.py:33
+msgid "Thank you! Your cactus added!"
+msgstr "Ваш Кактус добавлен!"
+
+#: cactus_app/views.py:46
+msgid "You have successfully registered!"
+msgstr "Вы успешно зарегистрированы!"
+
+#: cactus_app/views.py:61
+msgid "You have not yet registered cactuses. Add your cactus."
+msgstr "Ваши Кактусы еще не добавлены! Добавьте свой кактус."
+
+#: cactus_app/views.py:79
+msgid "The account has been disabled!"
+msgstr "Учетная запись отключена!"
+
+#: cactus_app/views.py:81
+msgid "The username and password were incorrect."
+msgstr "Имя пользователя и пароль неверны."
