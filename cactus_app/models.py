@@ -10,7 +10,8 @@ class Cactus(models.Model):
     cactus_name = models.CharField(_('cactus name'), max_length=100)
     location = models.CharField(_('location'), max_length=100)
     flowers = models.CharField(_('flowers'), max_length=100)
-    quantity = models.IntegerField(_('quantity'), default=0)
+    # Allow  values from 0 to 32767
+    quantity = models.PositiveSmallIntegerField(_('quantity'), default=0)
     image = models.ImageField(_('image'), upload_to='cactus_images', default='media/default.png')
 
     def __str__(self):
